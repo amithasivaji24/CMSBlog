@@ -1,0 +1,151 @@
+body{
+  width: 1250px;
+  margin: 0 auto;  
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    padding: 5px;
+}
+
+.home-image{
+    width: 1225px;
+    height: 500px;
+    padding: 10px;
+}
+
+.home-content{
+    text-align: center;
+}
+
+.main-content{
+    text-align: left;
+    padding: 10px;
+}
+
+#description{
+    text-align: left;
+    padding: 10px;
+}
+
+.home-title{
+    text-align: center;
+}
+
+h1{
+    font-size: 75px;
+    font-style: italic;
+    color: blueviolet;
+    text-shadow: 2px 2px violet;
+}
+
+nav{
+
+    background-color: violet;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: large;
+    margin: 10px;
+}
+
+
+li{
+    display: inline;
+}
+
+a{
+    padding: 10px;
+}
+
+.blog-image{
+    width: 1225px;
+    height: 500px;
+    padding: 10px;
+}
+
+.blog-content{
+    text-align: center;
+}
+
+.blog-title{
+    text-align: center;
+}
+
+.login-title{
+    text-align: center;
+}
+
+.login-content{
+    text-align: center;
+}
+
+.form-field{
+   padding: 5px; 
+}
+
+.add-content{
+    text-align: left;
+}
+
+.add-title{
+    text-align: center;
+}
+
+.edit-title{
+    text-align: center;
+}
+
+.edit-content{
+    text-align: center;
+}
+
+.action-title{
+    text-align: center;
+}
+
+.action-content{
+    text-align: center;
+}
+
+.admin-title{
+    text-align: center;
+}
+
+.admin-content{
+    text-align: center;
+}
+
+.error-content{
+    text-align: center;
+    color: red;
+    padding: 2px;
+}
+
+table {
+    border: 3px solid #000;
+    margin: auto;
+    margin-top: 20px;
+    width: 500px
+}
+
+th,
+td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer{
+    clear:both;
+    text-align: center;
+    background-color:  blueviolet;
+    height: 50px;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    margin: 10px;
+}

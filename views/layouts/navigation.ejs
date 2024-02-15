@@ -1,0 +1,11 @@
+<nav>
+    <ul>
+    <li><a href="/home"> Home </a></li>
+    <% blogs.forEach(function(blog){
+        %>
+    <li><a href="/nav/<%=blog.slug%>"> <%= blog.title %> </a></li>
+    <%}) %>
+    <li><a href="/login"> Login </a></li>
+</ul>
+</nav>
+    

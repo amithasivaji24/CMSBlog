@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management System</title>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <%- include('layouts/header') %>
+    </header>
+    
+    <%- include('layouts/adminnavigation') %>
+
+    <h2 class="edit-title">Edit Page</h2>
+    <div class="edit-content">
+    <table>
+        <tr>
+            <th>Page</th>
+            <th>Manage</th>
+            <th>Manage</th>
+        </tr>
+        <% blogs.forEach(function(blog){
+            %>
+        <tr>
+            <td><%= blog.title %></td>
+            <td><a href="/edit/<%= blog.id %>">Edit</a></td>
+            <td><a href="/delete/<%= blog.id %>">Delete</a></td>
+        </tr>
+        <%}) %>
+    </table>
+</div>
+
+    <footer>
+        <%- include('layouts/footer') %>
+    </footer>
+</body>
+</html>
